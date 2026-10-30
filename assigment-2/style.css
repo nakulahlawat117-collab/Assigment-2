@@ -1,0 +1,107 @@
+.main-container{
+    text-align: center;
+}
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    margin: 15px auto;
+}
+p, text, ul {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    padding-left: 0;
+    list-style-position: inside;
+}
+.container-1{
+    background-color: rgb(2, 2, 108);
+    color: white;
+}
+.container-1 ul{
+    list-style: none;
+    padding: 10px;
+}
+.container-1 li{
+    display: inline-block;
+    margin: 0 10px;
+} 
+nav a{
+    color: white;
+    text-decoration: none;
+}
+img {
+    display: block;
+    margin: 15px auto;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+nav li{
+    display: inline-block;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin: 0 auto;
+}
+table th{
+    background-color: rgb(2, 2, 108);
+    color: white;
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-1,.box-2{
+    background-color:rgb(233, 230, 230);
+    width: 342px;
+    height: 115px;
+    padding-left: 145px;
+    padding-right: 145px;
+    border-radius: 10px;
+}
+.box-1{
+    margin-bottom: 10px;
+}
+th,td{
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 1px solid rgb(2, 2, 108);
+}
+.but-1{
+    padding: 6px 60px 6px 60px;
+    background-color:rgb(2, 2, 108);
+    color: white;
+}
+.but-2 {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 6px 35px 6px 35px;
+    background-color:rgb(2, 2, 108);
+    color: white;
+
+}
+.but-1:hover,
+.but-2:hover {
+    background-color: #06636e;
+    transform: translateY(-2px);
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: rgb(2, 2, 108);
+  color: white;
+}
+form {
+    width: 50%;
+    margin: 15px auto;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid rgb(2, 2, 108);
+    border-radius: 10px;
+}
+}
